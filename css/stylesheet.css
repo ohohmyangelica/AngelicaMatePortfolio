@@ -1,7 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500);
+
 body {
   border: 1px solid black;
 }
 
+div {
+  /*border: 1px solid black;*/
+}
+
+span {
+  font-weight: bold;
+}
+
+.hrhr {
+  border-top: 1px solid #000;
+  width: 90%;
+}
 .meheader {
   background: url('img/header.jpg');
+}
+
+.abtme, .comp {
+  display: inline-flex;
+}
+
+.myicon, .comp, .desc {
+  padding: 5px;
 }
