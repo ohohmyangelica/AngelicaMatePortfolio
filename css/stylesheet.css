@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500);
-
+@import "font-awesome";
 body {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 div {
@@ -12,9 +12,22 @@ span {
   font-weight: bold;
 }
 
+footer {
+  font-size: 12px;
+  background-color: #ccc;
+  padding: 10px;
+}
+
 .hrhr {
-  border-top: 1px solid #000;
+  border-top: 1px solid #eee;
   width: 90%;
+  box-shadow: 2px 2px 5px #888;
+}
+
+.hrhr2 {
+  border-top: 1px solid #337ab7;
+  width: 80%;
+  box-shadow: 2px 2px 3px #999;
 }
 .meheader {
   background: url('img/header.jpg');
